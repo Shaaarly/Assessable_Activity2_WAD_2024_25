@@ -177,6 +177,8 @@ sudo systemctl restart apache2
 
 Ya casi lo tenemos, solo queda iniciar el proceso en segundo plano con pm2:
 
+```sh
 sudo pm2 start npm --name "vite-server" -- run dev -- --host
+```
 
 Ahora solo resta entrar con la IP configurada y visualizar la aplicación funcionando correctamente.
